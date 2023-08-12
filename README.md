@@ -8,7 +8,7 @@ Browse and move to the git directory using fzf.
 - Install this plugin using [fisher](https://github.com/jorgebucaran/fisher):
 
 ```
-fisher install magical-liebe/ghq-fzf.fish
+fisher install liebe-magi/ghq-fzf.fish
 ```
 
 ## Set keybindings
