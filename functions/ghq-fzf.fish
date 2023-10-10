@@ -8,8 +8,8 @@ function ghq-fzf
     end
 
     # cd ghq project
-    set dst $(ghq list | fzf --prompt "ghq > " --preview "bat --color=always --style=header,grid --line-range :80 $(ghq root)/{}/README.*")
-    commandline "cd $(ghq root)/$dst"
+    set dst (ghq list | fzf --prompt "ghq > " --preview "bat --color=always --style=header,grid --line-range :80 $(ghq root)/{}/README.*")
+    commandline "cd (ghq root)/$dst"
     commandline -f execute
 
     # pop-line
